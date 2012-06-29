@@ -1,0 +1,106 @@
+Semilla personalizada: 3500
+Creacion de modelos
+Cargando archivo de muestras.
+Construyendo modelo Positivo
+Modelo obtenido con Log(Likelihood) = -0.311087
+Construyendo modelo Negativo
+Modelo obtenido con Log(Likelihood) = -0.000227438
+Progreso global: modelo 0 (6%)
+Creacion de modelos
+Cargando archivo de muestras.
+Construyendo modelo Positivo
+Modelo obtenido con Log(Likelihood) = -0.30262
+Construyendo modelo Negativo
+Modelo obtenido con Log(Likelihood) = -0.000227454
+Progreso global: modelo 1 (13%)
+Creacion de modelos
+Cargando archivo de muestras.
+Construyendo modelo Positivo
+Modelo obtenido con Log(Likelihood) = -0.301918
+Construyendo modelo Negativo
+Modelo obtenido con Log(Likelihood) = -0.000227567
+Progreso global: modelo 2 (20%)
+Creacion de modelos
+Cargando archivo de muestras.
+Construyendo modelo Positivo
+Modelo obtenido con Log(Likelihood) = -0.309393
+Construyendo modelo Negativo
+Modelo obtenido con Log(Likelihood) = -0.000227563
+Progreso global: modelo 3 (26%)
+Creacion de modelos
+Cargando archivo de muestras.
+Construyendo modelo Positivo
+Modelo obtenido con Log(Likelihood) = -0.285129
+Construyendo modelo Negativo
+Modelo obtenido con Log(Likelihood) = -0.000227529
+Progreso global: modelo 4 (33%)
+Creacion de modelos
+Cargando archivo de muestras.
+Construyendo modelo Positivo
+Modelo obtenido con Log(Likelihood) = -0.320558
+Construyendo modelo Negativo
+Modelo obtenido con Log(Likelihood) = -0.000227471
+Progreso global: modelo 5 (40%)
+Creacion de modelos
+Cargando archivo de muestras.
+Construyendo modelo Positivo
+Modelo obtenido con Log(Likelihood) = -0.309329
+Construyendo modelo Negativo
+Modelo obtenido con Log(Likelihood) = -0.000227394
+Progreso global: modelo 6 (46%)
+Creacion de modelos
+Cargando archivo de muestras.
+Construyendo modelo Positivo
+Modelo obtenido con Log(Likelihood) = -0.275828
+Construyendo modelo Negativo
+Modelo obtenido con Log(Likelihood) = -0.000227486
+Progreso global: modelo 7 (53%)
+Creacion de modelos
+Cargando archivo de muestras.
+Construyendo modelo Positivo
+Modelo obtenido con Log(Likelihood) = -0.307942
+Construyendo modelo Negativo
+Modelo obtenido con Log(Likelihood) = -0.000227521
+Progreso global: modelo 8 (60%)
+Creacion de modelos
+Cargando archivo de muestras.
+Construyendo modelo Positivo
+Modelo obtenido con Log(Likelihood) = -0.306173
+Construyendo modelo Negativo
+Modelo obtenido con Log(Likelihood) = -0.000227619
+Progreso global: modelo 9 (66%)
+Creacion de modelos
+Cargando archivo de muestras.
+Construyendo modelo Positivo
+Modelo obtenido con Log(Likelihood) = -0.290309
+Construyendo modelo Negativo
+Modelo obtenido con Log(Likelihood) = -0.000227487
+Progreso global: modelo 10 (73%)
+Creacion de modelos
+Cargando archivo de muestras.
+Construyendo modelo Positivo
+Modelo obtenido con Log(Likelihood) = -0.331615
+Construyendo modelo Negativo
+Modelo obtenido con Log(Likelihood) = -0.000227505
+Progreso global: modelo 11 (80%)
+Creacion de modelos
+Cargando archivo de muestras.
+Construyendo modelo Positivo
+Modelo obtenido con Log(Likelihood) = -0.296179
+Construyendo modelo Negativo
+Modelo obtenido con Log(Likelihood) = -0.00022746
+Progreso global: modelo 12 (86%)
+Creacion de modelos
+Cargando archivo de muestras.
+Construyendo modelo Positivo
+Modelo obtenido con Log(Likelihood) = -0.302498
+Construyendo modelo Negativo
+Modelo obtenido con Log(Likelihood) = -0.000227675
+Progreso global: modelo 13 (93%)
+Creacion de modelos
+Cargando archivo de muestras.
+Construyendo modelo Positivo
+Modelo obtenido con Log(Likelihood) = -0.321292
+Construyendo modelo Negativo
+Modelo obtenido con Log(Likelihood) = -0.00022748
+Progreso global: modelo 14 (100%)

@@ -1,0 +1,159 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+Relation:     cleavageSite_chainPairs-weka.filters.supervised.instance.SpreadSubsample-M1.0-X0.0-S1205
+Instances:    168
+Attributes:   12
+              c0
+              c1
+              c2
+              c3
+              c4
+              c5
+              c6
+              c7
+              c8
+              c9
+              c10
+              class
+Test mode:user supplied test set: size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -2.701981026918152
+    Node 2    -6.241230203928844
+    Node 3    6.596981951116249
+    Node 4    7.783823556445887
+    Node 5    -3.596399370164398
+    Node 6    -7.9203138543518605
+    Node 7    9.332064021925975
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    2.701868064246087
+    Node 2    6.241098258900093
+    Node 3    -6.596914532490345
+    Node 4    -7.783728672654571
+    Node 5    3.5966600658371237
+    Node 6    7.92028017849134
+    Node 7    -9.33213753414339
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -0.5095852406405131
+    Attrib c0    -3.824261520322346
+    Attrib c1    2.4144250468505817
+    Attrib c2    4.6031893751741935
+    Attrib c3    1.7466753011785
+    Attrib c4    0.8096379106647359
+    Attrib c5    -0.7812311433460878
+    Attrib c6    -3.0251353582459277
+    Attrib c7    -0.20954511025448874
+    Attrib c8    1.475106383933011
+    Attrib c9    1.1820032968222505
+    Attrib c10    -1.5864738249938812
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -2.7464573977724673
+    Attrib c0    -0.5617130063533576
+    Attrib c1    1.047964944737321
+    Attrib c2    1.060254294350605
+    Attrib c3    -1.7063125112618913
+    Attrib c4    -0.3249769216866845
+    Attrib c5    3.385245677665244
+    Attrib c6    -2.3600323374249035
+    Attrib c7    -1.851742505036659
+    Attrib c8    0.6521660710419379
+    Attrib c9    3.4301504711360464
+    Attrib c10    3.5399585513892853
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    0.37416821685185864
+    Attrib c0    0.8437153833143749
+    Attrib c1    -1.3692195608242463
+    Attrib c2    -0.46353039307490407
+    Attrib c3    -1.3961957742030267
+    Attrib c4    6.905636046524731
+    Attrib c5    3.499428206950939
+    Attrib c6    -4.7025897029408315
+    Attrib c7    1.2182592404766885
+    Attrib c8    3.435090194283803
+    Attrib c9    -1.5227742700209463
+    Attrib c10    -2.7277644839258874
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -0.07512220123194868
+    Attrib c0    0.6788784635328858
+    Attrib c1    1.1199107198981908
+    Attrib c2    1.2074829962162668
+    Attrib c3    3.1794848259120343
+    Attrib c4    -2.2385123146741064
+    Attrib c5    -2.6544770556542763
+    Attrib c6    -2.519381971841074
+    Attrib c7    -2.6066053990200673
+    Attrib c8    -1.2165055422666
+    Attrib c9    0.3383848456896563
+    Attrib c10    1.4601400065332737
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    1.502627459907435
+    Attrib c0    -1.0989662650248548
+    Attrib c1    -6.579630424733858
+    Attrib c2    2.5611116774396034
+    Attrib c3    -0.927689167794789
+    Attrib c4    3.0610375181753358
+    Attrib c5    -3.4480047542726644
+    Attrib c6    -4.163740010681906
+    Attrib c7    -5.624137189058535
+    Attrib c8    3.256581639063067
+    Attrib c9    -2.191248952205449
+    Attrib c10    0.033869298755095624
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -2.899593532100397
+    Attrib c0    1.7456683412967184
+    Attrib c1    -0.8524801749645956
+    Attrib c2    5.457085070721635
+    Attrib c3    4.356850254438308
+    Attrib c4    -1.323677666192783
+    Attrib c5    -0.44596004134494555
+    Attrib c6    9.139167744661522
+    Attrib c7    1.018381177651972
+    Attrib c8    1.2468304930101732
+    Attrib c9    -0.47145169497770795
+    Attrib c10    -4.136451171618972
+Class p
+    Input
+    Node 0
+Class n
+    Input
+    Node 1
+
+
+Time taken to build model: 0.17 seconds
+
+=== Evaluation on test set ===
+=== Summary ===
+
+Correctly Classified Instances       41510               71.976  %
+Incorrectly Classified Instances     16162               28.024  %
+Kappa statistic                          0.0015
+Mean absolute error                      0.287 
+Root mean squared error                  0.4911
+Relative absolute error                 57.4077 %
+Root relative squared error             98.212  %
+Total Number of Instances            57672     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.818     0.28       0.001     0.818     0.002      0.857    p
+                 0.72      0.182      1         0.72      0.837      0.857    n
+Weighted Avg.    0.72      0.182      1         0.72      0.837      0.857
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+    18     4 |     a = p
+ 16158 41492 |     b = n
+

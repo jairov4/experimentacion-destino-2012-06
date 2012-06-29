@@ -1,0 +1,34 @@
+# Manifiesto de clasificador
+# Los siguientes archivos de modelos referenciados
+# p: Modelo para muestras positivas
+# n: Modelo para muestras negativas
+p phmm-0.hmm
+n nhmm-0.hmm
+p phmm-1.hmm
+n nhmm-1.hmm
+p phmm-2.hmm
+n nhmm-2.hmm
+p phmm-3.hmm
+n nhmm-3.hmm
+p phmm-4.hmm
+n nhmm-4.hmm
+p phmm-5.hmm
+n nhmm-5.hmm
+p phmm-6.hmm
+n nhmm-6.hmm
+p phmm-7.hmm
+n nhmm-7.hmm
+p phmm-8.hmm
+n nhmm-8.hmm
+p phmm-9.hmm
+n nhmm-9.hmm
+p phmm-10.hmm
+n nhmm-10.hmm
+p phmm-11.hmm
+n nhmm-11.hmm
+p phmm-12.hmm
+n nhmm-12.hmm
+p phmm-13.hmm
+n nhmm-13.hmm
+p phmm-14.hmm
+n nhmm-14.hmm

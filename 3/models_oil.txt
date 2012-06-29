@@ -1,0 +1,2 @@
+# Manifiesto de clasificador
+# Los siguientes archivos de modelos referenciados

@@ -1,0 +1,131 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+Relation:     cleavageSite_chainPairs-weka.filters.supervised.instance.SpreadSubsample-M1.0-X0.0-S1205
+Instances:    160
+Attributes:   10
+              c0
+              c1
+              c2
+              c3
+              c4
+              c5
+              c6
+              c7
+              c8
+              class
+Test mode:user supplied test set: size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    4.484064939490831
+    Node 2    -3.1853664802717296
+    Node 3    -3.07352930479736
+    Node 4    10.285588827243739
+    Node 5    -15.146516372780546
+    Node 6    -7.961181530350284
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -4.4841402643387855
+    Node 2    3.1854074987187544
+    Node 3    3.073584853810358
+    Node 4    -10.28573237533438
+    Node 5    15.146732871640847
+    Node 6    7.961308922581037
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    0.2503177771354106
+    Attrib c0    2.3179171443503135
+    Attrib c1    0.21049629790424168
+    Attrib c2    -1.083609159271776
+    Attrib c3    -1.7152584787742577
+    Attrib c4    1.8622490487013934
+    Attrib c5    3.6298523407764427
+    Attrib c6    -5.713891397119984
+    Attrib c7    -3.3288519708152347
+    Attrib c8    3.792490565444602
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -0.634071684188203
+    Attrib c0    -0.40676874035353056
+    Attrib c1    2.255690269881616
+    Attrib c2    -0.7148211291096438
+    Attrib c3    -5.087543535227541
+    Attrib c4    -0.12988269670317049
+    Attrib c5    -2.115381751580463
+    Attrib c6    1.5529167979985594
+    Attrib c7    -0.9645284975517034
+    Attrib c8    6.302595918807957
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -3.1937548756977012
+    Attrib c0    -0.7947722640992793
+    Attrib c1    1.9358546648857784
+    Attrib c2    -1.8486286781288475
+    Attrib c3    9.567546918297554
+    Attrib c4    0.8184812833061292
+    Attrib c5    1.5236385458669528
+    Attrib c6    -8.144899352782778
+    Attrib c7    1.890908324113146
+    Attrib c8    4.232746191346457
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    0.08641130112545081
+    Attrib c0    0.5353671939465655
+    Attrib c1    -0.6293474071544937
+    Attrib c2    -0.9753182129055314
+    Attrib c3    1.6830449343059104
+    Attrib c4    0.4685679446023623
+    Attrib c5    -1.8405951649400756
+    Attrib c6    -16.173530022990416
+    Attrib c7    -1.3183523842540814
+    Attrib c8    1.0434115624569147
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -2.586399383749587
+    Attrib c0    -0.673719413027025
+    Attrib c1    3.758821969900052
+    Attrib c2    -1.939003969550508
+    Attrib c3    2.765274187706099
+    Attrib c4    0.7529283618723911
+    Attrib c5    2.3141198241719287
+    Attrib c6    9.242878871750188
+    Attrib c7    3.2147858299325422
+    Attrib c8    1.5055346389767221
+Class p
+    Input
+    Node 0
+Class n
+    Input
+    Node 1
+
+
+Time taken to build model: 0.14 seconds
+
+=== Evaluation on test set ===
+=== Summary ===
+
+Correctly Classified Instances       45330               86.2197 %
+Incorrectly Classified Instances      7245               13.7803 %
+Kappa statistic                          0.0044
+Mean absolute error                      0.1527
+Root mean squared error                  0.3308
+Relative absolute error                 30.5375 %
+Root relative squared error             66.1513 %
+Total Number of Instances            52575     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.905     0.138      0.003     0.905     0.005      0.94     p
+                 0.862     0.095      1         0.862     0.926      0.94     n
+Weighted Avg.    0.862     0.095      1         0.862     0.926      0.94 
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+    19     2 |     a = p
+  7243 45311 |     b = n
+

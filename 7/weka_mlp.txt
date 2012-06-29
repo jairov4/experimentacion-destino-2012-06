@@ -1,0 +1,152 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+Relation:     cleavageSite_chainPairs-weka.filters.supervised.instance.SpreadSubsample-M1.0-X0.0-S1205
+Instances:    136
+Attributes:   11
+              c0
+              c1
+              c2
+              c3
+              c4
+              c5
+              c6
+              c7
+              c8
+              c9
+              class
+Test mode:user supplied test set: size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    4.44955325474677
+    Node 2    7.161712886841313
+    Node 3    -7.2246230408273915
+    Node 4    -8.657363687901634
+    Node 5    5.476795026543575
+    Node 6    -7.130094375239417
+    Node 7    -2.7864924199454566
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -4.449193393866873
+    Node 2    -7.16101715583057
+    Node 3    7.224185763760258
+    Node 4    8.656697683744621
+    Node 5    -5.477569595723605
+    Node 6    7.129703250962126
+    Node 7    2.786230535935374
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -4.2101193951756155
+    Attrib c0    0.46779735293829194
+    Attrib c1    1.176676500711135
+    Attrib c2    -2.179606883279079
+    Attrib c3    -0.676393106613746
+    Attrib c4    -4.5320733994225115
+    Attrib c5    8.085882602625261
+    Attrib c6    1.5892035682781862
+    Attrib c7    -0.7565361265628043
+    Attrib c8    -2.417985039295045
+    Attrib c9    2.4185604106444853
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    4.946733048538697
+    Attrib c0    1.720710216701697
+    Attrib c1    5.452512826174562
+    Attrib c2    1.625748965681979
+    Attrib c3    -7.027683119887552
+    Attrib c4    -3.133365563004593
+    Attrib c5    1.8957480275820584
+    Attrib c6    2.459375519443208
+    Attrib c7    2.030925789299606
+    Attrib c8    2.885053104894821
+    Attrib c9    4.115179205777822
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -2.8432707288079695
+    Attrib c0    -0.8266824792674775
+    Attrib c1    -0.1423545480802024
+    Attrib c2    4.299429067966144
+    Attrib c3    5.366167174816544
+    Attrib c4    -3.9722022818959712
+    Attrib c5    1.2426860199415066
+    Attrib c6    -2.1428444763491226
+    Attrib c7    -6.867642987622944
+    Attrib c8    0.01244534058163335
+    Attrib c9    1.5700856898350553
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -6.821936904770689
+    Attrib c0    -2.5105588993466763
+    Attrib c1    -0.0011757729456738167
+    Attrib c2    -4.344381237647671
+    Attrib c3    -0.4106158670431567
+    Attrib c4    -0.2955711543091832
+    Attrib c5    4.810917628896302
+    Attrib c6    -0.4649224171743006
+    Attrib c7    1.5123934055700297
+    Attrib c8    0.8353104400682582
+    Attrib c9    0.9819146595790227
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -2.6856417854961516
+    Attrib c0    -5.395609504162565
+    Attrib c1    -0.5291460464292266
+    Attrib c2    0.4751047165317423
+    Attrib c3    -0.3225304796060012
+    Attrib c4    -1.3436206407590976
+    Attrib c5    1.8568767660602095
+    Attrib c6    1.8416186431592545
+    Attrib c7    0.3858116473405991
+    Attrib c8    -4.878750818228375
+    Attrib c9    5.137148450945233
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -2.4705948262531567
+    Attrib c0    2.2158170980193765
+    Attrib c1    3.773544947000377
+    Attrib c2    3.385461127288614
+    Attrib c3    3.6013042519505643
+    Attrib c4    4.068551706075448
+    Attrib c5    0.044493816622468325
+    Attrib c6    1.7305771471570783
+    Attrib c7    -3.4018731429635305
+    Attrib c8    -1.0918189910934193
+    Attrib c9    -2.210780311206242
+Class p
+    Input
+    Node 0
+Class n
+    Input
+    Node 1
+
+
+Time taken to build model: 0.12 seconds
+
+=== Evaluation on test set ===
+=== Summary ===
+
+Correctly Classified Instances       36902               76.1793 %
+Incorrectly Classified Instances     11539               23.8207 %
+Kappa statistic                          0.002 
+Mean absolute error                      0.245 
+Root mean squared error                  0.4426
+Relative absolute error                 49.0075 %
+Root relative squared error             88.5241 %
+Total Number of Instances            48441     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.889     0.238      0.001     0.889     0.003      0.87     p
+                 0.762     0.111      1         0.762     0.865      0.87     n
+Weighted Avg.    0.762     0.111      1         0.762     0.864      0.87 
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+    16     2 |     a = p
+ 11537 36886 |     b = n
+

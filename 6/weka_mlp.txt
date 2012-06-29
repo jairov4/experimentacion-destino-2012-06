@@ -1,0 +1,131 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+Relation:     cleavageSite_chainPairs-weka.filters.supervised.instance.SpreadSubsample-M1.0-X0.0-S1205
+Instances:    202
+Attributes:   10
+              c0
+              c1
+              c2
+              c3
+              c4
+              c5
+              c6
+              c7
+              c8
+              class
+Test mode:user supplied test set: size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -5.4633966490345545
+    Node 2    11.513606245366162
+    Node 3    9.231132393777287
+    Node 4    7.883359903509669
+    Node 5    -8.661620854038931
+    Node 6    -9.920528347001579
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    5.463711276998748
+    Node 2    -11.51422596916065
+    Node 3    -9.23163387235633
+    Node 4    -7.883789779926303
+    Node 5    8.662094365045403
+    Node 6    9.921028531110084
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    2.531319752072036
+    Attrib c0    1.5160174456217
+    Attrib c1    0.37839841349286596
+    Attrib c2    9.672754539338085
+    Attrib c3    0.3704634551701643
+    Attrib c4    4.9157787124971986
+    Attrib c5    -2.5570948000523726
+    Attrib c6    -0.8235029470611676
+    Attrib c7    -10.350315803451789
+    Attrib c8    5.66166949869242
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -3.1204574257551765
+    Attrib c0    -1.308861669201571
+    Attrib c1    1.0032725137802787
+    Attrib c2    -2.9042865053399476
+    Attrib c3    -2.112184398356323
+    Attrib c4    -7.234456625027911
+    Attrib c5    -0.3012224093238416
+    Attrib c6    5.463239541710459
+    Attrib c7    6.69379566447402
+    Attrib c8    -7.789126918213401
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -4.928764912715929
+    Attrib c0    -3.152074629035979
+    Attrib c1    -8.018923751227096
+    Attrib c2    -1.5577697804496835
+    Attrib c3    -2.729082664813454
+    Attrib c4    3.1640132078562315
+    Attrib c5    5.19012047358795
+    Attrib c6    -4.657894852616339
+    Attrib c7    1.0097544752269692
+    Attrib c8    -8.895860461867372
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -2.7989758228522637
+    Attrib c0    1.3906394741131534
+    Attrib c1    -2.878912078296449
+    Attrib c2    -1.6924996492985198
+    Attrib c3    -0.380850569769626
+    Attrib c4    -1.8406942201143732
+    Attrib c5    3.3411974362661154
+    Attrib c6    -1.0962502113883974
+    Attrib c7    1.6438711435680977
+    Attrib c8    -14.01462487703359
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    5.2988913626423475
+    Attrib c0    -3.7527008471232413
+    Attrib c1    -1.6984294664022457
+    Attrib c2    1.7097244746192788
+    Attrib c3    1.8788876219710773
+    Attrib c4    -0.14840468026440304
+    Attrib c5    -15.27568887994719
+    Attrib c6    -0.6551720277479123
+    Attrib c7    -7.166510963269711
+    Attrib c8    -1.5147784740902428
+Class p
+    Input
+    Node 0
+Class n
+    Input
+    Node 1
+
+
+Time taken to build model: 0.16 seconds
+
+=== Evaluation on test set ===
+=== Summary ===
+
+Correctly Classified Instances       39984               76.0369 %
+Incorrectly Classified Instances     12601               23.9631 %
+Kappa statistic                          0.0019
+Mean absolute error                      0.2453
+Root mean squared error                  0.4533
+Relative absolute error                 49.067  %
+Root relative squared error             90.6538 %
+Total Number of Instances            52585     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.692     0.24       0.001     0.692     0.003      0.827    p
+                 0.76      0.308      1         0.76      0.864      0.827    n
+Weighted Avg.    0.76      0.308      0.999     0.76      0.863      0.827
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+    18     8 |     a = p
+ 12593 39966 |     b = n
+
