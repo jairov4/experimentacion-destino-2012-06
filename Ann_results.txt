@@ -1,0 +1,18 @@
+Sitio 1
+Acc: 0.783 Spec: 0.783 Sens: 0.833 MCC: 0.033
+Sitio 2
+Acc: 0.881 Spec: 0.881 Sens: 1.000 MCC: 0.043
+Sitio 3
+Acc: 0.697 Spec: 0.697 Sens: 0.643 MCC: 0.015
+Sitio 4
+Acc: 0.837 Spec: 0.837 Sens: 0.857 MCC: 0.038
+Sitio 5
+Acc: 0.771 Spec: 0.771 Sens: 0.727 MCC: 0.024
+Sitio 6
+Acc: 0.773 Spec: 0.773 Sens: 0.846 MCC: 0.033
+Sitio 7
+Acc: 0.795 Spec: 0.795 Sens: 0.833 MCC: 0.030
+Sitio 8
+Acc: 0.767 Spec: 0.767 Sens: 0.864 MCC: 0.029
+Sitio 9
+Acc: 0.747 Spec: 0.747 Sens: 0.923 MCC: 0.033
